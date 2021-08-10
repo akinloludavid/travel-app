@@ -14,7 +14,6 @@ const List = ({places, childClicked, isLoading,setType, setRating, rating, type}
     
   // eslint-disable-next-line react-hooks/exhaustive-deps
   },[places])
-  console.log({childClicked})
   
   const classes = useStyles()
   return (
